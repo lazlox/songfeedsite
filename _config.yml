@@ -16,10 +16,10 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Laszlo G.                             
+your_link                                 :                   
+your_city                                 : Toronto                               
+email_address                             : laszloxgergely@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
 twitter_username                          : 
@@ -35,16 +35,16 @@ features                                  :
 
 # Theme Settings
 topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
+topbar_transparency                       : 1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               :                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 1
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "0000000"
 
 link_color                                : "#1d63ea"
 
