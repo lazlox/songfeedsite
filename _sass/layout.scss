@@ -30,7 +30,7 @@ r.imageWrapper {					// Sets the background image in the header area
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
-		// "h h h h h h h h h h h h"
+		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
@@ -50,7 +50,7 @@ r.imageWrapper {					// Sets the background image in the header area
 		grid-template-columns: 1;
 		grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
-			// "h h h h h h h h h h h h"
+			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
@@ -68,7 +68,7 @@ header {
 	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
-	height: 115px;
+	height: 0px;
 }
 
 .logo > p {
