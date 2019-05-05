@@ -259,9 +259,12 @@ nav > ul li a:active {
 } 
 
 .appStore {
-	height: 39px;
+	height: 60px;
 }
 
+@media only screen and (max-width: 768px) {
+	height: 39px;
+}
 
 
 // iPhone Device Preview
