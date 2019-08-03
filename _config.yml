@@ -1,5 +1,5 @@
 # App Info
-ios_app_id                                : 1466653655                               # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1459337629                               # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                      # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -8,7 +8,7 @@ presskit_download_link                    :                                     
 
 app_icon                                  :                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Remu                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : ""                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : "Control your Roku and Roku TV effortlessly with Siri and fluid touchpad gestures."
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -16,10 +16,10 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Laszlo Gergely                           
+your_name                                 : Remu                          
 your_link                                 :                   
 your_city                                 :                              
-email_address                             : laszloxgergely@gmail.com
+email_address                             : info@remu.app
 facebook_username                         :                                           
 instagram_username                        : 
 twitter_username                          : 
