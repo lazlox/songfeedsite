@@ -9,7 +9,7 @@ presskit_download_link                    :                                     
 app_icon                                  :                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Remu                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : "Easy control for your Roku"
+app_description                           : "Control your Roku and Roku TV effortlessly with Siri and fluid touchpad gestures. Works with all Roku players and TCL, Hisense, Sharp, Element, Hitachi, RCA, JVC Roku TVs"
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -31,9 +31,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Siri Voice Control
-    description                           : Use Siri to control your Roku or Roku TV
+  - title                                 : Siri Shortcuts
+    description                           : Use Siri voice commands to control your Roku and Roku TV. Open your favourite app or TV channel, mute or turn off your device with Siri without even touching your phone.  Additionally, use the actions in the Shortcuts app with your automation workflows or add commands to the home screen or Shortcuts widget for quick access
     fontawesome_icon_name                 : microphone
+    
+  - title                                 : More than just swipe
+    description                           : Navigate lists and menus with ease using pan gestures only available with Remu’s unique touchpad control
+    fontawesome_icon_name                 : square
+    
+  - title                                 : TV Channel support
+    description                           : Remu not only provides full Roku TV support but over-the-air broadcast call signs are resolved to actual channel names to easily identify your selection.
+    fontawesome_icon_name                 : tv
 
 
 # Theme Settings
@@ -58,8 +66,8 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#ffffff"
 feature_text_color                        : "#ffffff"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#666666"
+feature_icons_foreground_color            : "#666666"
+feature_icons_background_color            : "#ffffff"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
