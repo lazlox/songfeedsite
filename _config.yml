@@ -31,6 +31,9 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : Siri Voice Control
+    description                           : Use Siri to control your Roku or Roku TV
+    fontawesome_icon_name                 : microphone
 
 
 # Theme Settings
