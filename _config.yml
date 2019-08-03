@@ -32,7 +32,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Siri Shortcuts
-    description                           : Use Siri voice commands to control your Roku and Roku TV. Open your favourite app or TV channel, mute or turn off your device with Siri without even touching your phone.  Additionally, use the actions in the Shortcuts app with your automation workflows or add commands to the home screen or Shortcuts widget for quick access
+    description                           : Use Siri voice commands to control your Roku and Roku TV. Additionally, use the actions in the Shortcuts app with your automation workflows or add commands to the home screen or Shortcuts widget for quick access
     fontawesome_icon_name                 : microphone
     
   - title                                 : More than just swipe
