@@ -9,12 +9,15 @@
             margin: 0;
             padding: 0;
           }
-          html {
-            min-height: 100vh;
+          html, body {
+            height: 100%;
+            overflow: hidden;
             background: linear-gradient(to bottom right, rgb(255, 0, 138), rgb(253, 96, 160));
           }
-          body {
-            background: transparent;
+          .scroll {
+            height: 100%;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
             padding: 40px 20px;
           }
           .container {
@@ -45,11 +48,13 @@
         </style>
     </head>
     <body>
-      <div class="container">
-        <h1>SongFeed App Privacy</h1>
-        <p>We don't store any personally identifiable information outside of your device. (Such as Apple Music session details)</p>
-        <h1>Tracking and Analytics</h1>
-        <p>We don't do tracking and only use anonymous analytics to improve the app.</p>
+      <div class="scroll">
+        <div class="container">
+          <h1>SongFeed App Privacy</h1>
+          <p>We don't store any personally identifiable information outside of your device. (Such as Apple Music session details)</p>
+          <h1>Tracking and Analytics</h1>
+          <p>We don't do tracking and only use anonymous analytics to improve the app.</p>
+        </div>
       </div>
     </body>
 </html>
