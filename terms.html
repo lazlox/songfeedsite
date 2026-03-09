@@ -1,38 +1,50 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Songfeed Terms of Use</title>
-
         <style>
-          body, html {
-            background: linear-gradient(to bottom right, rgb(255, 0, 138), rgb(253, 96, 160));
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
           }
-
+          html, body {
+            height: 100%;
+            overflow: hidden;
+            background: rgb(58, 58, 60);
+          }
+          .scroll {
+            height: 100%;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 40px 20px;
+          }
           .container {
             text-align: center;
             font-family: sans-serif;
             margin: auto;
             color: white;
           }
-
           h1 {
             font-weight: 900;
-            font-size: 40;
+            font-size: 40px;
             text-align: left;
             max-width: 600pt;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 16px;
           }
-          
           h2 {
             font-weight: 600;
-            font-size: 30;
+            font-size: 30px;
             text-align: left;
             max-width: 600pt;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 24px;
+            margin-bottom: 12px;
           }
-
           ul, li, p {
             text-align: left;
             opacity: 0.9;
@@ -41,17 +53,20 @@
             font-weight: normal;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 12px;
           }
-
+          a {
+            color: white;
+          }
           .subtitle {
             text-align: left;
           }
-
         </style>
     </head>
     <body>
-      <div class="container">
-        <h1>Terms of Use</h1>
+      <div class="scroll">
+        <div class="container">
+          <h1>Terms of Use</h1>
 <p>Please read these Terms of Use, including those set forth in the <a href="https://songfeed.app/privacy">Privacy Policy</a> carefully before using the Songfeed application (the "App") made available by Laszlo Gergely ("us", "we", or "our").</p>
 <p>Your access to and use of the App is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the App.</p>
 <p>The App is not intended for and is not designed to attract children under 13 years of age. BY ACCESSING OR USING THE APP YOU AGREE TO BE BOUND BY THESE TERMS. IF YOU DISAGREE WITH ANY PART OF THE TERMS THEN YOU DO NOT HAVE PERMISSION TO ACCESS THE APP.</p>
@@ -100,6 +115,7 @@
 <p>By continuing to access or use our App after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the App.</p>
 <h2>Contact Us</h2>
 <p>If you have any questions about these Terms, please contact us.</p>
+        </div>
       </div>
     </body>
 </html>
